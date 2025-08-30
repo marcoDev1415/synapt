@@ -1,0 +1,68 @@
+export const products = [
+  {
+    id: 'p1',
+    title: 'Auriculares Inalámbricos',
+    price: 1299,
+    category: 'electronica',
+    description: 'Sonido nítido con cancelación de ruido y 24h de batería.',
+    imageUrl: '',
+  },
+  {
+    id: 'p2',
+    title: 'Smartwatch Deportivo',
+    price: 2299,
+    category: 'electronica',
+    description: 'Seguimiento de actividad, GPS y resistencia al agua.',
+    imageUrl: '',
+  },
+  {
+    id: 'p3',
+    title: 'Zapatillas Urbanas',
+    price: 1599,
+    category: 'moda',
+    description: 'Diseño moderno y suela de alto confort.',
+    imageUrl: '',
+  },
+  {
+    id: 'p4',
+    title: 'Campera Rompeviento',
+    price: 1999,
+    category: 'moda',
+    description: 'Liviana, impermeable y respirable.',
+    imageUrl: '',
+  },
+  {
+    id: 'p5',
+    title: 'Cafetera Automática',
+    price: 3499,
+    category: 'hogar',
+    description: 'Espresso perfecto con un solo botón.',
+    imageUrl: '',
+  },
+  {
+    id: 'p6',
+    title: 'Aspiradora Robot',
+    price: 4999,
+    category: 'hogar',
+    description: 'Limpieza automática con mapeo inteligente.',
+    imageUrl: '',
+  },
+  {
+    id: 'p7',
+    title: 'Teclado Mecánico',
+    price: 1899,
+    category: 'electronica',
+    description: 'Switches táctiles, retroiluminación RGB.',
+    imageUrl: '',
+  },
+  {
+    id: 'p8',
+    title: 'Set de Sábanas Premium',
+    price: 999,
+    category: 'hogar',
+    description: 'Algodón 100%, suavidad superior.',
+    imageUrl: '',
+  },
+]
+
+
