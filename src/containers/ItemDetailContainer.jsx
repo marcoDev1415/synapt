@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { fetchProductById } from '../services/productsService'
+import RandomContent from '../components/RandomContent'
 
 function ItemCount({ initial = 1, onAdd }) {
   const [qty, setQty] = useState(initial)
@@ -51,7 +52,12 @@ function ItemDetailContainer() {
   if (loading) return <p style={{ padding: 20 }}>Cargando...</p>
   if (!product) return <p style={{ padding: 20 }}>Producto no encontrado.</p>
 
-  return <ItemDetail product={product} />
+  return (
+    <div style={{ padding: 20 }}>
+      <ItemDetail product={product} />
+      <RandomContent variant="detail" />
+    </div>
+  )
 }
 
 export default ItemDetailContainer

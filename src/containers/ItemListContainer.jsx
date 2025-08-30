@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { fetchProducts } from '../services/productsService'
 import ProductCard from '../components/ProductCard'
+import RandomContent from '../components/RandomContent'
 
 function ItemListContainer({ greeting }) {
   const { categoryId } = useParams()
@@ -31,6 +32,7 @@ function ItemListContainer({ greeting }) {
           ))}
         </div>
       )}
+      <RandomContent variant="list" />
     </section>
   )
 }

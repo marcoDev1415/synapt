@@ -72,6 +72,10 @@ main {
   margin-top: 0;
 }
 
+.random-content { margin-top: 28px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); padding: 16px; border-radius: 12px; }
+.random-content__title { margin: 0 0 8px 0; font-size: 1.1rem; }
+.random-content__text { margin: 8px 0; color: var(--muted); }
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
